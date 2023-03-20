@@ -9,7 +9,7 @@ class evenFibonacciSum {
 
         int solve() {
             int fbn1(1), fbn2(2), sum(0), temp;
-            while (fbn2 < maxfn_) {
+            while (fbn2 <= maxfn_) {
                 (fbn2 % 2 == 0) ? sum += fbn2 : sum = sum;
                 temp = fbn1 + fbn2;
                 fbn1 = fbn2;
