@@ -9,16 +9,14 @@ class LargestPrimeFactor {
         ~LargestPrimeFactor () {};
 
         long solve() {
-            long largestPrimeFactor(1), remainingFactor(product_);//, finalResult(1);
+            long largestPrimeFactor(1), remainingFactor(product_);
             while (largestPrimeFactor <= remainingFactor) {
                 largestPrimeFactor++;
-                //finalResult = (remainingFactor % largestPrimeFactor == 0) ? largestPrimeFactor : finalResult;
                 while (remainingFactor % largestPrimeFactor == 0)
                 {
                     remainingFactor /= largestPrimeFactor;
                 }
             }
-            //return finalResult;
             return largestPrimeFactor;
         }
 
