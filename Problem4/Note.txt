@@ -1,0 +1,3 @@
+In this problem, I am making the problem *slightly* different for chatGPT: Find the second largest palindrome. Let's see then. 
+
+Outcome: It was able to solve the problem, but when I asked it to optimize, it gave me wrong code, and it couldn't fix its mistake in 3 trials. 
